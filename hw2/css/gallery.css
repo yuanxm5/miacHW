@@ -1,0 +1,188 @@
+* {
+    font-family: 'Microsoft YaHei','Helvetica Neue', Helvetica, Arial, Verdana,  "Hiragino Sans GB", STHeiti, sans-serif;;
+    margin: 0;
+    padding: 0;    
+}
+
+ul {
+    list-style: none;
+}
+
+body {
+    /* todo */
+    // border: 1px solid #000;
+    background-image: url('../img/body-background.jpg');
+
+}
+
+h1, h2 {
+    /* todo */
+    text-align: center;
+}
+
+/* 最外层容器样式 */
+#wrapper {
+    width: 800px;
+    margin: 0 auto;
+    padding: 20px 90px 90px 90px;
+    box-shadow: 0 0 30px rgba(0,0,0,0.3);
+    background-image: url('../img/wrapper-background.png');
+    background-repeat: repeat;
+}
+
+#gallery {
+    height: 612px;
+}
+
+/* 头部header的样式 */
+#header h1 {
+    /* todo */
+    font-family: 'Meddon';
+    font-size :83px;
+    font-weight: lighter;
+    color: lime;
+}
+
+#header nav ul {
+    margin: 0 auto;
+    border-bottom: dotted 1px #ddd;
+    list-style: none;
+    padding-left: 125px;
+    padding-top: 20px;
+    padding-bottom: 60px;
+}
+
+#header nav ul li {
+    display: inline-block;
+    margin-left: 110px;
+}
+
+#header nav ul li a {
+    /* todo */
+    text-decoration: none;
+    color: #332;
+}
+
+
+
+/* 相册样式 */
+#gallery {
+    /* todo */
+    background-color: white;
+}
+
+.gallery-heading h2 {
+    font-weight: lighter;
+    font-size: 28px;
+    color: #61AABC;
+}
+
+.gallery-heading .gallery-icon {
+    text-align: center;
+    
+    //border: 1px solid #000;
+}
+
+.gallery-heading .gallery-icon img {
+    /* todo */
+    margin-top: -30px;
+    height: 60px;
+    width: 60px;
+}
+
+.gallery-heading h2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.gallery-heading p.time {  
+    margin: 20px 0px;
+    text-align: center;
+    font-weight: lighter;
+    font-size: 15px;
+    color: #656565;
+}
+
+
+.gallery-heading p.time {
+    /* todo */
+    text-align: center;
+    
+}
+
+.gallery-slides {
+    text-align: center;
+    position: relative;
+    width: 600px;
+    height: 400px;
+    margin: 0 auto;
+    list-style: none;
+}
+
+.gallery-slides .gallery-slide {
+    position: absolute;
+}
+
+
+/*评论输入框*/
+#comment {
+    //border-bottom: 1px solid #bbb;
+}
+
+.comment-textarea img {
+    border-radius: 3px;
+    float: left;
+    margin-top: 50px;
+}
+
+.comment-textarea textarea.comment {
+    padding: 10px;
+    margin-left: 10px;
+    margin-top: 50px;
+    height: 54px;
+    width: 708px;
+    font-size: 13px;
+    line-height: 20px;
+    color: #999;
+    border: 1px solid #bbb;
+    border-radius: 3px;
+/* todo */
+}
+
+button.comment-submit {
+    margin: 7px 0px;
+    padding: 5px 25px;
+    float: right;
+    font-size: 14px;
+    font-weight: bold;
+    color: #555;
+    cursor: pointer;
+/* todo */
+}
+
+
+
+/*评论列表*/
+.comments-count {
+    margin-top: 40px;
+    margin-bottom: 10px;
+    font-size: 13px;
+    color: #777;
+}
+
+/* todo */
+.comments-count span {
+    color: red;
+}
+
+.comment-item {
+    padding: 20px;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+
+.comment-item p {
+    font-size: 13px;
+    color: #333;
+    line-height: 1.5em;
+}
